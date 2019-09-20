@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Card Component</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="component">
+      <aside class="login">
+        <header class="login-header">
+          <h2>Card</h2>
+          <p>A basic reusable sample card component</p>
+        </header>
+        <!-- the outer container class name is plural, the inner ones are singular -->
+        <div class="card-controls">
+          <div class="card-control">
+            <img src="img/credit-card.svg" alt="credit card icon" />
+            <input
+              id="card-number"
+              type="text"
+              name=""
+              placeholder="enter your card number"
+            />
+          </div>
+          <div class="card-control">
+            <img src="img/user.svg" alt="user icon" />
+            <input
+              id="username"
+              type="text"
+              name=""
+              placeholder="enter your username"
+            />
+          </div>
+          <div class="card-control">
+            <img src="img/eye-slash-solid.svg" alt="eyes slash icon" />
+            <input
+              id="password"
+              type="text"
+              name=""
+              placeholder="enter your password"
+            />
+          </div>
+          <div class="card-submit">
+            <input type="submit" name="" id="submit" value="Submit" />
+          </div>
+        </div>
+      </aside>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
